@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="public/app.css">
+    <link rel="stylesheet" href="public/main.css">
+    <title>Jo+</title>
+  </head>
+  <body class="font-body bg-gray-50 overflow-x-hidden">
+    <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600 shadow-[0_4px_6px_0px_rgba(12,0,46,0.05)]">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3">
+      <a href="#top" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="public/images/logo.png" class="hover:scale-125 duration-300" style="height: 70px;" alt="Logo">
+      </a>
+      <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse items-center">
+        <button type="button" class="text-white bg-blue-500 hover:bg-pink-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-full duration-300 text-lg px-10 py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Signup</button>
+        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+        </button>
+      </div>
+      <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+        <ul class="flex flex-col p-4 md:p-0 mt-4 text-lg font-semibold border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <li>
+            <a href="#top" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-pink-500 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 duration-300">Home</a>
+          </li>
+          <li>
+            <a href="#services" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-pink-500 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 duration-300">Services</a>
+          </li>
+          <li>
+            <a href="#pricing" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-pink-500 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 duration-300">Pricing</a>
+          </li>
+          <li>
+            <a href="#clients" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-pink-500 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 duration-300">Clients</a>
+          </li>
+          <li>
+            <a href="#news" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-pink-500 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 duration-300">News</a>
+          </li>
+          <li>
+            <a href="#contact" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-pink-500 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 duration-300">Contact</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+    <!-- ======================================================================================== -->
+    <a href="#" class="flex flex-col gap-20 justify-center items-center md:flex-row md:max-w-7xl mt-48 mb-24 mx-auto">
+      <img class="object-cover w-112 h-auto md:max-lg:w-96 lg:h-auto lg:w-136 relative" src="public/images/header.png" alt="">
+      <div class="flex flex-col justify-between p-4 leading-normal text-center items-center md:items-start md:text-left">
+        <h2 class="text-[1.75rem] md:max-lg:text-lg">Multipurpose landing template</h2>
+        <h1 class="text-6xl md:max-lg:text-5xl font-serif font-semibold max-w-96 text-regal-blue mt-4">Beautifully simple, code.</h1>
+        <h3 class="max-w-112 text-[1.1rem] md:max-lg:text-[0.9rem] text-zinc-500 mt-6">Codelander is a beautifully simple, clean and lightweight landing page template for all types<br>of businesses, with bold and bright colours.</h3>
+        <button class="btn !w-48 !bg-[#ff3e81] hover:!bg-blue-500 !mt-10">Learn More</button>
+      </div>
+    </a>
+    <!-- ======================================================================================== -->
+    <div class="services grid grid-cols-1 justify-items-center items-center space-y-8 md:space-y-0 md:max-lg:space-y-8 md:grid-cols-4 md:max-lg:grid-cols-2 text-center mx-auto md:px-72 md:max-lg:px-12 lg:max-xl:px-0 xl:max-2xl:px-0 relative">
+      <div class="graphic-img absolute w-[22%] right-[-5%] top-[-20%] lg:top-[-120%]">
+        <img src="public/images/strategy-section-bg.png" alt="">
+      </div>
+      <div class="strategy md:max-lg:mt-8 hover:shadow-[0_3px_47px_rgba(0,0,0,0.15)]">
+        <div class="img-holder w-20 h-20 mx-auto mb-5 flex justify-center items-center">
+          <img src="public/images/strategy-1.png" alt="">
+        </div>
+        <h2 class="mb-2 font-serif text-regal-blue text-xl font-bold">Strategy</h2>
+        <p class="font-light w-64">We'll work with you to develop the right strategy</p>
+      </div>
+      <div class="Automation md:max-lg:mt-8 hover:shadow-[0_3px_47px_rgba(0,0,0,0.15)]">
+        <div class="img-holder w-20 h-20 mx-auto mb-5 flex justify-center items-center">
+          <img src="public/images/strategy-2.png" alt="">
+        </div>
+        <h2 class="mb-2 font-serif text-regal-blue text-xl font-bold">Automation</h2>
+        <p class="font-light w-64">Work synchronization and automated services</p>
+      </div>
+      <div class="Deployment md:max-lg:mt-8 hover:shadow-[0_3px_47px_rgba(0,0,0,0.15)]">
+        <div class="img-holder w-20 h-20 mx-auto mb-5 flex justify-center items-center">
+          <img src="public/images/strategy-3.png" alt="">
+        </div>
+        <h2 class="mb-2 font-serif text-regal-blue text-xl font-bold">Deployment</h2>
+        <p class="font-light w-64">Dedicated servers to deploy and test applications</p>
+      </div>
+      <div class="Education md:max-lg:mt-8 hover:shadow-[0_3px_47px_rgba(0,0,0,0.15)]">
+        <div class="img-holder w-20 h-20 mx-auto mb-5 flex justify-center items-center">
+          <img src="public/images/strategy-4.png" alt="">
+        </div>
+        <h2 class="mb-2 font-serif text-regal-blue text-xl font-bold">Education</h2>
+        <p class="font-light w-64">Stay informed on all our tools and technologies</p>
+      </div>
+    </div>
+    <!-- ============================================================================= -->
+    <div class="solving-problems relative" id="services">
+      <div class="graphic-img absolute w-[25%] left-[-16.5%] top-[-5%] xl:top-[-25%]">
+        <img src="public/images/services-section-bg.png" alt="">
+      </div>
+      <div class="container grid grid-cols-1 xl:grid-cols-2 items-center justify-items-center pt-16 mt-20 mx-auto px-28 md:pt-0 md:max-lg:px-0 lg:max-xl:px-0 xl:max-2xl:px-0">
+        <div class="main-title space-y-3 ml-0 flex flex-col text-center justify-start items-center xl:items-start xl:justify-start xl:text-left order-2 xl:order-none my-16 xl:my-0">
+          <h2 class="text-xl font-normal">Our Services</h2>
+          <h1 class="text-5xl font-serif font-semibold text-regal-blue">Solving Problems</h1>
+          <h3 class="max-w-96 text-base text-zinc-500">This is a great section to introduce your company and showcase your featured services.</h3>
+          <button class="btn hover:!bg-[#78c2ff] !mt-10 !px-48 !py-[1.60rem] relative flex justify-center items-center">
+            <span class="absolute left-5 font-medium">Website Design</span>
+            <span class="absolute right-8 font-extrabold text-2xl">+</span>
+          </button>
+          <button class="btn hover:!bg-[#78c2ff] !mt-5 !px-48 !py-[1.60rem] relative flex justify-center items-center">
+            <span class="absolute left-5 font-medium">Application Development</span>
+            <span class="absolute right-8 font-extrabold text-2xl">+</span>
+          </button>
+        </div>
+        <div class="img-holder object-cover w-112 h-auto md:w-136 mt-16 order-1 xl:order-none hover:scale-110 duration-300">
+          <img src="public/images/services-header.png" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- ============================================================================= -->
+    <div class="sales">
+      <div class="container grid grid-cols-1 xl:grid-cols-2 items-center justify-items-center mx-auto px-28 md:pt-0 md:max-lg:px-0 lg:max-xl:px-0 xl:max-2xl:px-0">
+        <div class="img-holder object-cover w-112 h-auto md:w-136 mt-16 order-1 xl:order-none hover:scale-110 duration-300">
+          <img src="public/images/services-sales-header.png" alt="">
+        </div>
+        <div class="main-title space-y-3 ml-0 flex flex-col text-center justify-start items-center xl:items-start xl:justify-start xl:text-left order-2 xl:order-none my-16 xl:my-0">
+          <h2 class="text-xl font-normal">Our Services</h2>
+          <h1 class="text-5xl font-serif font-semibold text-regal-blue">Sales Growth</h1>
+          <h3 class="max-w-96 text-base text-zinc-500">You can talk about your secondary services here, or maybe promote your excellent customer service approach. Always grab your website visitors' attention.</h3>
+          <button class="btn !bg-[#ff3e81] hover:!bg-blue-500 !mt-10">View Pricing</button>
+        </div>
+      </div>
+    </div>
+    <!-- ============================================================================= -->
+    <div class="pricing relative" id="pricing">
+      <div class="graphic-img absolute right-[-37%] xl:right-[-87%] top-[-5%] xl:top-[-10%] w-[60%] xl:w-[100%]">
+        <img src="public/images/pricing-section-left-bg.png" alt="">
+      </div>
+      <div class="container mx-auto pt-24">
+        <div class="main-title space-y-4 text-center flex flex-col justify-center items-center">
+          <h1 class="text-5xl font-serif font-semibold text-regal-blue">Pricing</h1>
+          <p class="text-base text-zinc-500 max-w-2xl">Offer multiple packages or monthly subscriptions? Why not showcase your featured price plans here, bold and beautifully.</p>
+        </div>
+        <div class="cards-section">
+          <div class="container grid grid-cols-1 xl:grid-cols-3 gap-10 xl:gap-3 px-40 lg:max-xl:px-0 xl:max-2xl:px-16 mx-auto mt-10 text-center justify-items-center items-center">
+            <div class="pricing-card bg-white rounded-[50px] h-128 w-88 hover:shadow-[0_3px_47px_rgba(0,0,0,0.15)] p-10 cursor-pointer">
+              <h1 class="text-6xl font-serif font-bold text-regal-blue">$199</h1>
+              <h2 class="text-xl font-semibold text-blue-300">Basic</h2>
+              <p class="text-xl mt-5">Starter plan with all the basics included</p>
+              <ul class="mt-7 space-y-4 text-gray-500 flex flex-col items-start pl-8">
+                <li class="flex">
+                  <div class="mr-2 text-blue-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+                  <div>Core Business System</div>
+                </li>
+                <li class="flex">
+                  <div class="mr-2 text-blue-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+                  <div>Team Management</div>
+                </li>
+                <li class="flex">
+                  <div class="mr-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+                  <div>Dual Infrastructure</div>
+                </li>
+                <li class="flex">
+                  <div class="mr-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+                  <div>Customized Features</div>
+                </li>
+              </ul>
+              <button class="btn mt-10">Enquire</button>
+            </div>
+            <div class="pricing-card bg-white rounded-[50px] h-144 w-88 hover:shadow-[0_3px_47px_rgba(0,0,0,0.15)] border-8 border-dashed border-blue-300 p-10 cursor-pointer">
+              <button class="btn !bg-blue-300 !font-serif uppercase !text-sm !px-5 !py-2 mb-5">Popular</button>
+              <h1 class="text-6xl font-serif font-bold text-regal-blue">$499</h1>
+              <h2 class="text-xl font-semibold text-blue-300">Growth</h2>
+              <p class="text-xl mt-5">The sensible option for growing companies</p>
+              <ul class="mt-7 space-y-4 text-gray-500 flex flex-col items-start pl-8">
+                <li class="flex">
+                  <div class="mr-2 text-blue-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+                  <div>Core Business System</div>
+                </li>
+                <li class="flex">
+                  <div class="mr-2 text-blue-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+                  <div>Team Management</div>
+                </li>
+                <li class="flex">
+                  <div class="mr-2 text-blue-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+                  <div>Dual Infrastructure</div>
+                </li>
+                <li class="flex">
+                  <div class="mr-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+                  <div>Customized Features</div>
+                </li>
+              </ul>
+              <button class="btn mt-10">Enquire</button>
+            </div>
+            <div class="pricing-card bg-white rounded-[50px] h-128 w-88 hover:shadow-[0_3px_47px_rgba(0,0,0,0.15)] p-10 cursor-pointer">
+              <h1 class="text-6xl font-serif font-bold text-regal-blue">$1299</h1>
+              <h2 class="text-xl font-semibold text-blue-300">Corporate</h2>
+              <p class="text-xl mt-5">Everything a global company needs</p>
+              <ul class="mt-7 space-y-4 text-gray-500 flex flex-col items-start pl-8">
+                <li class="flex">
+                  <div class="mr-2 text-blue-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+                  <div>Core Business System</div>
+                </li>
+                <li class="flex">
+                  <div class="mr-2 text-blue-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+                  <div>Team Management</div>
+                </li>
+                <li class="flex">
+                  <div class="mr-2 text-blue-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+                  <div>Dual Infrastructure</div>
+                </li>
+                <li class="flex">
+                  <div class="mr-2 text-blue-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                      <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+                  <div>Customized Features</div>
+                </li>
+              </ul>
+              <button class="btn mt-10">Enquire</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="graphic-img absolute left-[-5%] bottom-[-7%] xl:bottom-[-20%]">
+        <img src="public/images/pricing-section-right-bg.png" alt="">
+      </div>
+    </div>
+    <!-- ============================================================================= -->
+    <div class="clients flex flex-col justify-center items-center px-24 xl:px-64" id="clients">
+      <div class="container pt-24">
+        <div class="main-title space-y-3 text-center flex flex-col justify-center items-center">
+          <h2 class="text-xl font-normal">Our Clients</h2>
+          <h1 class="text-5xl font-serif font-semibold text-regal-blue">Client Showcase</h1>
+        </div>
+        <div class="container grid grid-cols-4 mx-auto my-4 justify-items-center items-center">
+          <a href="#"><img class="scale-[0.8] hover:scale-90 duration-300" src="public/images/logo1.png" alt=""></a>
+          <a href="#"><img class="scale-[0.8] hover:scale-90 duration-300" src="public/images/logo2.png" alt=""></a>
+          <a href="#"><img class="scale-[0.8] hover:scale-90 duration-300" src="public/images/logo3.png" alt=""></a>
+          <a href="#"><img class="scale-[0.8] hover:scale-90 duration-300" src="public/images/logo4.png" alt=""></a>
+        </div>
+        <div class="bullets flex gap-3 mx-auto justify-center">
+          <div class="bg-gray-300 w-3 h-3 rounded-full"></div>
+          <div class="bg-blue-500 w-3 h-3 rounded-full"></div>
+          <div class="bg-gray-300 w-3 h-3 rounded-full"></div>
+        </div>
+      </div>
+    </div>
+    <!-- ============================================================================= -->
+    <div class="news relative" id="news">
+      <div class="graphic-img absolute right-[0] bottom-[75%]">
+        <img src="public/images/blog-section-right-bg.png" alt="">
+      </div>
+      <div class="main-title space-y-3 text-center flex flex-col justify-center items-center pt-24">
+        <h2 class="text-xl font-normal">Recent updates</h2>
+        <h1 class="text-5xl font-serif font-semibold text-regal-blue">Featured Stories</h1>
+      </div>
+      <div class="cards-section">
+        <div class="container grid grid-cols-1 xl:grid-cols-3 gap-10 xl:gap-3 px-52 lg:max-xl:px-0 xl:max-2xl:px-24 mx-auto mt-10 text-center justify-items-center items-center">
+          <div class="pricing-card bg-white rounded-[50px] h-128 w-80 hover:shadow-[0_3px_47px_rgba(0,0,0,0.15)] p-10 cursor-pointer">
+            <img class="pt-7 mx-auto" src="public/images/blog-card-1.png" alt="">
+            <h1 class="text-xl font-serif font-bold text-regal-blue mt-8">Remote Working</h1>
+            <p class="text-sm font-light mt-5">Making it easier to connect with every client worldwide</p>
+            <button class="btn !bg-transparent !text-blue-300 hover:!text-pink-500 font-serif mt-1">Read More</button>
+          </div>
+          <div class="pricing-card bg-white rounded-[50px] h-148 w-84 hover:shadow-[0_3px_47px_rgba(0,0,0,0.15)] p-10 cursor-pointer">
+            <img class="pt-7 mx-auto" src="public/images/blog-card-2.png" alt="">
+            <h1 class="text-xl font-serif font-bold text-regal-blue mt-8">Google Rankings</h1>
+            <h2 class="text-xl font-serif text-gray-300 mt-1">Keywords</h2>
+            <p class="text-sm font-light my-4">We've ranked number one on Google for multiple keywords. Read about our SEO strategies</p>
+            <button class="btn mt-1">Read More</button>
+          </div>
+          <div class="pricing-card bg-white rounded-[50px] h-128 w-80 hover:shadow-[0_3px_47px_rgba(0,0,0,0.15)] p-10 cursor-pointer">
+            <img class="pt-7 mx-auto" src="public/images/blog-card-3.png" alt="">
+            <h1 class="text-xl font-serif font-bold text-regal-blue mt-8">Communication</h1>
+            <p class="text-sm font-light mt-5">We've made our client support services easy to access</p>
+            <button class="btn !bg-transparent !text-blue-300 hover:!text-pink-500 font-serif mt-1">Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="graphic-img absolute right-[90%] bottom-[-5%]">
+        <img src="public/images/blog-section-left-bg.png" alt="">
+      </div>
+    </div>
+    <!-- ============================================================================= -->
+    <div class="contact" id="contact">
+      <div class="container grid grid-cols-1 xl:grid-cols-2 items-center justify-items-center pt-16 mt-16 mb-32 mx-auto px-28 md:pt-0 md:max-lg:px-0 lg:max-xl:px-0 xl:max-2xl:px-0">
+        <div class="main-title space-y-3 ml-0 flex flex-col text-center justify-start items-center xl:items-start xl:justify-start xl:text-left order-2 xl:order-none my-16 xl:my-0">
+          <h2 class="text-xl font-normal">Contact</h2>
+          <h1 class="text-5xl font-serif font-semibold text-regal-blue">Questions? <br> Get in touch</h1>
+          <h3 class="max-w-112 text-base text-zinc-500">We'll be happy to help answer any of your questions. Send us an email and we'll get back to you shortly.</h3>
+          <button class="btn !bg-[#ff3e81] hover:!bg-blue-500 !mt-10">Send an Email</button>
+        </div>
+        <div class="img-holder object-cover w-112 h-auto md:w-136 mt-16 order-1 xl:order-none">
+          <img class="relative scale-x-[-1]"  src="public/images/contact-header-img.png" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- ============================================================================= -->
+    <div class="footer bg-regal-blue h-fit w-full relative">
+      <div class="container grid grid-cols-2 gap-10 lg:grid-cols-4 lg:gap-3 px-24 md:px-36 md:max-lg:px-20 lg:max-xl:px-24 mx-auto my-10 justify-items-start">
+        <div class="mt-16">
+          <a href="#top">
+            <img class="logo h-12 hover:scale-125 duration-300" src="public/images/logo.png" alt="Logo">
+          </a>
+          <h1 class="text-lg text-white mt-8">A beautiful landing page template by Codefest.</h1>
+        </div>
+        <div class="mt-8">
+          <h1 class="text-3xl font-bold text-white mt-10">About</h1>
+          <h2 class="text-lg font-serif text-white mt-7 max-w-60">We like to do business at Codelander HQ to our clients' satisfaction.</h2>
+        </div>
+        <div class="mt-8">
+          <h1 class="text-3xl font-bold text-white mt-10">Contact Us</h1>
+          <div class="mt-5 grid gap-5">
+            <a class="flex" href="#top">
+              <svg class="w-7 h-7 mt-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#a4c4f3" d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
+              <p class="ml-3 text-white font-serif">268 Tô Hiến Thành, Phường <br> 15, Quận 10, <br> TPHCM</p>
+            </a>
+            <a class="flex" href="#top">
+              <svg class="w-4 h-4 mt-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#a4c4f3" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>
+              <p class="ml-3 text-white font-serif">0101 028 322</p>
+            </a>
+            <a class="flex" href="#top">
+              <svg class="w-4 h-4 mt-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#a4c4f3" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+              <p class="ml-3 text-white font-serif">yo@gmail.com</p>
+            </a>
+          </div>
+        </div>
+        <div class="mt-8">
+          <h1 class="text-3xl font-bold text-white mt-10">Socials</h1>
+          <div class="links flex gap-5 mt-5">
+            <a href="#top">
+              <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z"/></svg>
+            </a>
+            <a href="#top">
+              <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+            </a>
+            <a href="#top">
+              <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg>
+            </a>
+            <a href="#top">
+              <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <p class="text-lg font-serif text-blue-200 mt-20 pb-14 text-center">© 2025 <span class="font-bold hover:underline"><a href="https://codelander.net/">Jo+</a></span>™. All Rights Reserved.</p>
+      <div class="graphic-img absolute right-[-10%] bottom-[0%]">
+        <img src="public/images/footer-section-bg.png" alt="">
+      </div>
+    </div>
+    <!-- ============================================================================= -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+  </body>
+</html>
